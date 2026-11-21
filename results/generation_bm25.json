@@ -1,0 +1,930 @@
+{
+  "summary": {
+    "retriever": "bm25",
+    "generator": "gpt-5.4-mini",
+    "judge": "gpt-5.5",
+    "n": 40,
+    "not_judged": 0,
+    "faithfulness": 1.0,
+    "answer_relevance": 0.875,
+    "correct": 0.6666666666666666,
+    "correct_when_retrieval_hit": 0.8888888888888888,
+    "correct_when_retrieval_miss": 0.0,
+    "retrieval_misses": 9,
+    "abstained_on_unanswerable": 1.0
+  },
+  "rows": [
+    {
+      "id": "q01",
+      "question": "How do I export a note as PDF?",
+      "relevant_ids": [
+        "export-pdf"
+      ],
+      "reference_answer": "Open the note, click Share and choose Export as PDF.",
+      "type": "keyword",
+      "retrieved": [
+        "export-pdf",
+        "export-markdown",
+        "tags-search"
+      ],
+      "retrieval_hit": true,
+      "answer": "Open the note, click the Share menu, and choose **Export as PDF**. Images and tables are kept, and PDF export is available on all plans, including Free.",
+      "verdict": {
+        "reasoning": "The answer directly gives the steps to export a note as a PDF, matching the reference answer. Its additional claims about images/tables being kept and availability on all plans are explicitly supported by the retrieved context.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Can I export my notes to Markdown?",
+      "relevant_ids": [
+        "export-markdown"
+      ],
+      "reference_answer": "Yes: Share > Export as Markdown; bulk export is on Pro and Team.",
+      "type": "keyword",
+      "retrieved": [
+        "export-markdown",
+        "import-evernote",
+        "export-pdf"
+      ],
+      "retrieval_hit": true,
+      "answer": "Yes. To export a note as Markdown, open Share and choose Export as Markdown. Attachments are saved in a folder next to the .md file.",
+      "verdict": {
+        "reasoning": "The answer is fully supported by the retrieved context: it correctly states that notes can be exported as Markdown via Share > Export as Markdown and that attachments are saved in a folder next to the .md file. It directly answers the user's question. However, compared with the reference answer, it omits the detail that bulk export is available on Pro and Team plans, so it is incomplete rather than fully correct.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "partial"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "How do I resolve a sync conflict?",
+      "relevant_ids": [
+        "sync-conflicts"
+      ],
+      "reference_answer": "Both versions are kept; compare the 'Conflicted copy' with the original and delete the one you don't need.",
+      "type": "keyword",
+      "retrieved": [
+        "sync-conflicts",
+        "data-residency",
+        "keyboard-shortcuts"
+      ],
+      "retrieval_hit": true,
+      "answer": "A sync conflict happens when the same note is edited on two devices before they sync. Lumen Notes keeps both versions: the newest stays in place and the other is saved as a copy named \u201cConflicted copy\u201d with the device name and date; compare the two and delete the one you don\u2019t need.",
+      "verdict": {
+        "reasoning": "The answer is fully supported by the retrieved sync-conflicts context and directly explains how to resolve a sync conflict by comparing the kept versions and deleting the unneeded one. It matches the reference answer, with some additional supported context about how conflicts occur and how the conflicted copy is named.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "How long is version history kept on the Free plan?",
+      "relevant_ids": [
+        "version-history"
+      ],
+      "reference_answer": "7 days.",
+      "type": "keyword",
+      "retrieved": [
+        "version-history",
+        "device-limit",
+        "cancel-subscription"
+      ],
+      "retrieval_hit": true,
+      "answer": "Free plans keep 7 days of version history.",
+      "verdict": {
+        "reasoning": "The answer states that Free plans keep 7 days of version history, which is directly supported by the retrieved context and matches the reference answer. It directly addresses the question asking how long version history is kept on the Free plan.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "How do I restore a deleted note from the Trash?",
+      "relevant_ids": [
+        "trash-restore"
+      ],
+      "reference_answer": "Open Trash, select the note and click Restore, within 30 days.",
+      "type": "keyword",
+      "retrieved": [
+        "trash-restore",
+        "version-history",
+        "delete-account"
+      ],
+      "retrieval_hit": true,
+      "answer": "Open Trash in the sidebar, select the note, and click Restore. Deleted notes stay in Trash for 30 days before being permanently deleted.",
+      "verdict": {
+        "reasoning": "The answer is fully supported by the retrieved context: it gives the restore steps and the 30-day Trash retention period. It directly answers how to restore a deleted note and matches the reference answer.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "What does the Team plan cost per user?",
+      "relevant_ids": [
+        "plans-pricing"
+      ],
+      "reference_answer": "$10 per user per month.",
+      "type": "keyword",
+      "retrieved": [
+        "plans-pricing",
+        "storage-limits",
+        "device-limit"
+      ],
+      "retrieval_hit": true,
+      "answer": "The Team plan costs $10 per user per month.",
+      "verdict": {
+        "reasoning": "The answer states that the Team plan costs $10 per user per month, which is directly supported by the retrieved context: \u201cTeam: $10 per user per month...\u201d. It directly answers the question and matches the reference answer exactly in substance.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q07",
+      "question": "How do I cancel my subscription?",
+      "relevant_ids": [
+        "cancel-subscription"
+      ],
+      "reference_answer": "Settings > Billing > Cancel plan.",
+      "type": "keyword",
+      "retrieved": [
+        "cancel-subscription",
+        "refund-policy",
+        "data-residency"
+      ],
+      "retrieval_hit": true,
+      "answer": "You can cancel anytime from Settings > Billing > Cancel plan. You\u2019ll keep paid features until the end of the current billing period, then your account moves to the Free plan.",
+      "verdict": {
+        "reasoning": "The answer directly provides the cancellation path given in both the retrieved context and reference answer. Its additional statements about retaining paid features until the end of the billing period and moving to the Free plan are supported by the retrieved context.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q08",
+      "question": "What is the refund policy for yearly subscriptions?",
+      "relevant_ids": [
+        "refund-policy"
+      ],
+      "reference_answer": "Full refund within 14 days of purchase.",
+      "type": "keyword",
+      "retrieved": [
+        "refund-policy",
+        "plans-pricing",
+        "data-residency"
+      ],
+      "retrieval_hit": true,
+      "answer": "Yearly Pro and Team subscriptions can be refunded in full within 14 days of purchase. To request a refund, use the Help Center contact form.",
+      "verdict": {
+        "reasoning": "The answer directly states the yearly subscription refund policy: full refund within 14 days of purchase for Yearly Pro and Team subscriptions. This is supported by the retrieved refund-policy context and matches the reference answer. The additional instruction to use the Help Center contact form is also supported by the retrieved context.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q09",
+      "question": "Is there a student discount?",
+      "relevant_ids": [
+        "student-discount"
+      ],
+      "reference_answer": "Yes, 50% off Pro, verified with a school email.",
+      "type": "keyword",
+      "retrieved": [
+        "student-discount",
+        "data-residency",
+        "keyboard-shortcuts"
+      ],
+      "retrieval_hit": true,
+      "answer": "Students and teachers get 50% off Pro. You can verify your status with a school email address under Settings > Billing > Education discount, and the verification must be renewed every 12 months.",
+      "verdict": {
+        "reasoning": "The answer accurately states that students and teachers get 50% off Pro, that verification is done with a school email address under Settings > Billing > Education discount, and that verification must be renewed every 12 months. All of these details are explicitly supported by the retrieved context. It directly answers whether there is a student discount and matches the reference answer, with additional supported detail.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q10",
+      "question": "How do I turn on two-factor authentication?",
+      "relevant_ids": [
+        "two-factor"
+      ],
+      "reference_answer": "Settings > Security; authenticator apps and hardware keys are supported.",
+      "type": "keyword",
+      "retrieved": [
+        "two-factor",
+        "sync-conflicts",
+        "ai-summary"
+      ],
+      "retrieval_hit": true,
+      "answer": "Turn on two-factor authentication (2FA) in **Settings > Security**. Lumen Notes supports authenticator apps and hardware security keys, and you should save your backup codes.",
+      "verdict": {
+        "reasoning": "The answer is fully supported by the retrieved context: it gives the correct navigation path, lists supported 2FA methods, and advises saving backup codes, which the context explicitly states. It directly answers how to turn on two-factor authentication and matches the reference answer, with one supported extra detail.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q11",
+      "question": "How long is the password reset link valid?",
+      "relevant_ids": [
+        "reset-password"
+      ],
+      "reference_answer": "1 hour.",
+      "type": "keyword",
+      "retrieved": [
+        "reset-password",
+        "ai-summary",
+        "encryption"
+      ],
+      "retrieval_hit": true,
+      "answer": "The reset link is valid for 1 hour. If you don\u2019t receive it, check your spam folder or request a new link after 5 minutes.",
+      "verdict": {
+        "reasoning": "The answer directly states that the reset link is valid for 1 hour, matching both the retrieved context and the reference answer. The additional details about checking spam or requesting a new link after 5 minutes are also supported by the retrieved context.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q12",
+      "question": "Which browsers does the web clipper support?",
+      "relevant_ids": [
+        "web-clipper"
+      ],
+      "reference_answer": "Chrome, Firefox, Edge and Safari.",
+      "type": "keyword",
+      "retrieved": [
+        "web-clipper",
+        "two-factor",
+        "trash-restore"
+      ],
+      "retrieval_hit": true,
+      "answer": "The Lumen web clipper is available for Chrome, Firefox, Edge, and Safari.",
+      "verdict": {
+        "reasoning": "The answer states that the Lumen web clipper is available for Chrome, Firefox, Edge, and Safari. This is directly supported by the retrieved context and matches the reference answer. It fully addresses which browsers are supported.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q13",
+      "question": "How do I create a note from a template?",
+      "relevant_ids": [
+        "templates"
+      ],
+      "reference_answer": "New > From template.",
+      "type": "keyword",
+      "retrieved": [
+        "templates",
+        "export-pdf",
+        "version-history"
+      ],
+      "retrieval_hit": true,
+      "answer": "Create a note from a template with **New > From template**. You can also save any note as your own template from the **...** menu by choosing **Save as template**.",
+      "verdict": {
+        "reasoning": "The answer directly gives the documented path to create a note from a template: \u201cNew > From template,\u201d which is supported by the retrieved context and matches the reference answer. The additional note about saving a note as a template via the ... menu > Save as template is also supported by the retrieved context, though it goes beyond the specific question.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q14",
+      "question": "Can I import my Evernote notes?",
+      "relevant_ids": [
+        "import-evernote"
+      ],
+      "reference_answer": "Yes, import .enex files via Settings > Data > Import.",
+      "type": "keyword",
+      "retrieved": [
+        "import-evernote",
+        "encryption",
+        "trash-restore"
+      ],
+      "retrieval_hit": true,
+      "answer": "Yes. You can import notes from Evernote using `.enex` files via Settings > Data > Import, and tags and creation dates are preserved where the source app provides them.",
+      "verdict": {
+        "reasoning": "The answer directly addresses whether Evernote notes can be imported and gives the supported method: using .enex files via Settings > Data > Import. Its additional note about tags and creation dates being preserved where provided by the source app is also explicitly supported by the retrieved context.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q15",
+      "question": "What is the maximum attachment size on Pro?",
+      "relevant_ids": [
+        "storage-limits"
+      ],
+      "reference_answer": "200 MB per attachment.",
+      "type": "keyword",
+      "retrieved": [
+        "storage-limits",
+        "student-discount",
+        "export-markdown"
+      ],
+      "retrieval_hit": true,
+      "answer": "A single attachment can be up to 200 MB on Pro.",
+      "verdict": {
+        "reasoning": "The answer states that a single attachment can be up to 200 MB on Pro, which is directly supported by the retrieved context and matches the reference answer of 200 MB per attachment. It addresses the question asking for the maximum attachment size on Pro.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q16",
+      "question": "Can Team workspaces use EU data residency?",
+      "relevant_ids": [
+        "data-residency"
+      ],
+      "reference_answer": "Yes, chosen when the workspace is created; it can't be changed later.",
+      "type": "keyword",
+      "retrieved": [
+        "data-residency",
+        "storage-limits",
+        "export-markdown"
+      ],
+      "retrieval_hit": true,
+      "answer": "Yes. Team workspaces can choose EU data residency when the workspace is created, and it cannot be changed afterwards.",
+      "verdict": {
+        "reasoning": "The answer directly matches the retrieved context and reference answer: Team workspaces can choose EU data residency at workspace creation, and it cannot be changed later.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q17",
+      "question": "What is the keyboard shortcut for the quick switcher?",
+      "relevant_ids": [
+        "keyboard-shortcuts"
+      ],
+      "reference_answer": "Cmd/Ctrl+K.",
+      "type": "keyword",
+      "retrieved": [
+        "keyboard-shortcuts",
+        "data-residency",
+        "export-markdown"
+      ],
+      "retrieval_hit": true,
+      "answer": "Cmd/Ctrl+K quick switcher.",
+      "verdict": {
+        "reasoning": "The answer states that the quick switcher shortcut is Cmd/Ctrl+K, which is directly supported by the retrieved keyboard shortcuts context and matches the reference answer. It addresses the question asking for the keyboard shortcut.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q18",
+      "question": "Do AI summaries use my notes to train models?",
+      "relevant_ids": [
+        "ai-summary"
+      ],
+      "reference_answer": "No, summaries are never used to train AI models.",
+      "type": "keyword",
+      "retrieved": [
+        "ai-summary",
+        "encryption",
+        "trash-restore"
+      ],
+      "retrieval_hit": true,
+      "answer": "No. AI summaries are generated on demand and never used to train AI models.",
+      "verdict": {
+        "reasoning": "The answer directly addresses whether AI summaries use notes to train models. The retrieved context states that summaries are generated on demand and are never used to train AI models, so the factual claims are supported and align with the reference answer.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q19",
+      "question": "My laptop has no wifi on the plane, can I still write?",
+      "relevant_ids": [
+        "offline-mode"
+      ],
+      "reference_answer": "Yes, the desktop app works offline and syncs edits when you reconnect.",
+      "type": "paraphrase",
+      "retrieved": [
+        "device-limit",
+        "plans-pricing",
+        "data-residency"
+      ],
+      "retrieval_hit": false,
+      "answer": "I don't know based on the help center.",
+      "verdict": {
+        "reasoning": "The answer makes no substantive factual claim about offline writing; it only states that the information is not known from the help center context, which is faithful to the retrieved context because the provided snippets do not discuss offline use. It does respond to the user's question, but compared with the reference answer, it is incorrect because the correct answer is that the desktop app works offline and syncs when reconnected.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "incorrect"
+      }
+    },
+    {
+      "id": "q20",
+      "question": "I edited the same page on my phone and my computer and now there are two of them, why?",
+      "relevant_ids": [
+        "sync-conflicts"
+      ],
+      "reference_answer": "It's a sync conflict; both versions are kept as the note and a 'Conflicted copy'.",
+      "type": "paraphrase",
+      "retrieved": [
+        "sync-conflicts",
+        "two-factor",
+        "import-evernote"
+      ],
+      "retrieval_hit": true,
+      "answer": "A sync conflict can happen when the same note is edited on two devices before they sync. Lumen Notes keeps both versions: the newest stays in place and the other is saved as a \u201cConflicted copy\u201d with the device name and date.",
+      "verdict": {
+        "reasoning": "The answer directly reflects the retrieved sync-conflicts context: it explains that editing the same note on two devices before syncing causes a sync conflict, and that Lumen Notes keeps both versions with the newest in place and the other as a 'Conflicted copy' with device name and date. This addresses why there are two copies and matches the reference answer.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q21",
+      "question": "I messed up a paragraph yesterday, can I go back to what it said before?",
+      "relevant_ids": [
+        "version-history"
+      ],
+      "reference_answer": "Yes, use version history (clock icon) to preview and restore an earlier version.",
+      "type": "paraphrase",
+      "retrieved": [
+        "two-factor",
+        "delete-account",
+        "trash-restore"
+      ],
+      "retrieval_hit": false,
+      "answer": "Deleted notes go to the Trash and stay there for 30 days, where you can restore them. After 30 days, notes are permanently deleted and cannot be recovered.",
+      "verdict": {
+        "reasoning": "The answer's factual claims about deleted notes staying in Trash for 30 days and being restorable are supported by the retrieved context. However, the user asked about reverting a paragraph to a previous version, which should be handled via version history according to the reference answer. The response discusses recovering deleted notes instead, so it does not address the question and is incorrect relative to the reference.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": false,
+        "correct": "incorrect"
+      }
+    },
+    {
+      "id": "q22",
+      "question": "I accidentally binned something last week, is it gone forever?",
+      "relevant_ids": [
+        "trash-restore"
+      ],
+      "reference_answer": "No, it stays in Trash for 30 days and can be restored.",
+      "type": "paraphrase",
+      "retrieved": [
+        "data-residency",
+        "keyboard-shortcuts",
+        "export-markdown"
+      ],
+      "retrieval_hit": false,
+      "answer": "I don't know based on the help center.",
+      "verdict": {
+        "reasoning": "The answer makes no substantive factual claim about deleted/binned items, and an 'I don't know' response is considered faithful to the retrieved context, which does not include trash/restore information. However, it does not actually answer whether the item is gone forever. Compared with the reference answer, it is incorrect because the correct answer is that the item remains in Trash for 30 days and can be restored.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": false,
+        "correct": "incorrect"
+      }
+    },
+    {
+      "id": "q23",
+      "question": "How much money is the paid tier if I pay once a year?",
+      "relevant_ids": [
+        "plans-pricing"
+      ],
+      "reference_answer": "Pro is $6 per month billed yearly.",
+      "type": "paraphrase",
+      "retrieved": [
+        "cancel-subscription",
+        "version-history",
+        "data-residency"
+      ],
+      "retrieval_hit": false,
+      "answer": "I don't know based on the help center.",
+      "verdict": {
+        "reasoning": "The answer makes no factual claim about the subscription price and only states uncertainty, which is supported as a faithful abstention given the retrieved context does not include pricing. It is responsive to the question in the sense that it directly indicates the information is not available from the provided help center context. However, compared with the reference answer, it is incorrect because the correct answer is that Pro is $6 per month billed yearly.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "incorrect"
+      }
+    },
+    {
+      "id": "q24",
+      "question": "If I stop paying, will I lose everything I wrote?",
+      "relevant_ids": [
+        "cancel-subscription"
+      ],
+      "reference_answer": "No, notes are never deleted; the account moves to Free at the end of the period.",
+      "type": "paraphrase",
+      "retrieved": [
+        "two-factor",
+        "refund-policy",
+        "version-history"
+      ],
+      "retrieval_hit": false,
+      "answer": "Monthly subscriptions are not refunded, but you can cancel to stop the next charge. The help center doesn\u2019t say whether stopping payment deletes your notes or writing.",
+      "verdict": {
+        "reasoning": "The answer's factual refund/cancellation statement is supported by the retrieved refund-policy context. Its statement that the provided help material does not say whether stopping payment deletes notes is also consistent with the retrieved context, which lacks that information. It does address the user's question by saying the information is not available, but compared with the reference answer it fails to give the correct policy: notes are never deleted and the account moves to Free at the end of the period.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "incorrect"
+      }
+    },
+    {
+      "id": "q25",
+      "question": "I bought the annual plan by mistake three days ago, can I get my money back?",
+      "relevant_ids": [
+        "refund-policy"
+      ],
+      "reference_answer": "Yes, yearly plans are fully refundable within 14 days.",
+      "type": "paraphrase",
+      "retrieved": [
+        "trash-restore",
+        "cancel-subscription",
+        "device-limit"
+      ],
+      "retrieval_hit": false,
+      "answer": "I don't know based on the help center.",
+      "verdict": {
+        "reasoning": "The answer makes no substantive factual claim about refunds and simply says it does not know based on the help center, which is faithful to the retrieved context. However, it does not actually answer whether the user can get their money back. Compared with the reference answer, it is incorrect because the correct answer is that yearly plans are fully refundable within 14 days.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": false,
+        "correct": "incorrect"
+      }
+    },
+    {
+      "id": "q26",
+      "question": "I'm at university, is it cheaper for me?",
+      "relevant_ids": [
+        "student-discount"
+      ],
+      "reference_answer": "Yes, students get 50% off Pro.",
+      "type": "paraphrase",
+      "retrieved": [
+        "data-residency",
+        "keyboard-shortcuts",
+        "export-markdown"
+      ],
+      "retrieval_hit": false,
+      "answer": "I don't know based on the help center.",
+      "verdict": {
+        "reasoning": "The answer makes no substantive factual claim about student pricing; saying it does not know based on the available help center context is faithful to the retrieved context, which contains no information about student discounts. It does address the user's question by indicating that the answer is not available from the provided context. However, compared with the reference answer, it is incorrect because students do get 50% off Pro.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "incorrect"
+      }
+    },
+    {
+      "id": "q27",
+      "question": "It won't let me log in on my new tablet, says too many devices",
+      "relevant_ids": [
+        "device-limit"
+      ],
+      "reference_answer": "Free allows 3 devices; sign out of one under Settings > Account > Devices or upgrade.",
+      "type": "paraphrase",
+      "retrieved": [
+        "reset-password",
+        "sync-conflicts",
+        "device-limit"
+      ],
+      "retrieval_hit": true,
+      "answer": "The Free plan can be used on up to 3 devices. If you sign in on a fourth device, you\u2019ll be asked to sign out of another one first; you can manage devices under Settings > Account > Devices.",
+      "verdict": {
+        "reasoning": "The answer is fully supported by the retrieved device-limit context: Free plan allows up to 3 devices, a fourth sign-in requires signing out of another device, and devices are managed under Settings > Account > Devices. It directly addresses the user's login problem caused by too many devices. Compared with the reference, it includes the main remedy of signing out/managing devices, though it omits the optional upgrade path; the provided answer is still substantively correct.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q28",
+      "question": "I lost my phone with the authenticator app, how do I get back in?",
+      "relevant_ids": [
+        "two-factor"
+      ],
+      "reference_answer": "Use your backup codes; otherwise support verifies your identity, which can take up to 5 business days.",
+      "type": "paraphrase",
+      "retrieved": [
+        "two-factor",
+        "import-evernote",
+        "offline-mode"
+      ],
+      "retrieval_hit": true,
+      "answer": "If you lose your 2FA device and your backup codes, support must verify your identity before access is restored, which can take up to 5 business days. Save your backup codes for this reason.",
+      "verdict": {
+        "reasoning": "The answer is faithful to the retrieved context: it accurately states that if both the 2FA device and backup codes are lost, support must verify identity and restoration can take up to 5 business days, and it mentions saving backup codes. It addresses the login-recovery question, but it omits the key first step from the reference answer: using backup codes if the user has them. Therefore it is only partially correct compared with the reference.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "partial"
+      }
+    },
+    {
+      "id": "q29",
+      "question": "Can your employees read my private journal?",
+      "relevant_ids": [
+        "encryption"
+      ],
+      "reference_answer": "Locked notes are end-to-end encrypted and staff cannot read them; all notes are encrypted in transit and at rest.",
+      "type": "paraphrase",
+      "retrieved": [
+        "shared-notebooks",
+        "encryption",
+        "data-residency"
+      ],
+      "retrieval_hit": true,
+      "answer": "I don't know based on the help center.",
+      "verdict": {
+        "reasoning": "The answer makes no substantive factual claims beyond saying it does not know, which is faithful. However, the retrieved context does contain relevant information: locked notes are end-to-end encrypted and Lumen staff cannot read them, while all notes are encrypted in transit and at rest. The answer therefore fails to answer the user\u2019s question and is incorrect relative to the reference answer.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": false,
+        "correct": "incorrect"
+      }
+    },
+    {
+      "id": "q30",
+      "question": "How do I let a coworker edit my project notes?",
+      "relevant_ids": [
+        "shared-notebooks"
+      ],
+      "reference_answer": "On Team, share the notebook with them as an Editor.",
+      "type": "paraphrase",
+      "retrieved": [
+        "encryption",
+        "trash-restore",
+        "delete-account"
+      ],
+      "retrieval_hit": false,
+      "answer": "I don't know based on the help center.",
+      "verdict": {
+        "reasoning": "The answer makes no substantive factual claims beyond stating that it does not know based on the help center, which is faithful to the retrieved context because the retrieved documents do not discuss sharing or editing permissions. However, it does not provide the requested instructions for letting a coworker edit project notes. Compared with the reference answer, it is incorrect because the correct action is to share the notebook with the coworker as an Editor on Team.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": false,
+        "correct": "incorrect"
+      }
+    },
+    {
+      "id": "q31",
+      "question": "Can I save a news article from Chrome straight into my notes?",
+      "relevant_ids": [
+        "web-clipper"
+      ],
+      "reference_answer": "Yes, with the web clipper browser extension.",
+      "type": "paraphrase",
+      "retrieved": [
+        "web-clipper",
+        "templates",
+        "two-factor"
+      ],
+      "retrieval_hit": true,
+      "answer": "The Lumen web clipper browser extension can save articles, screenshots, or whole pages into a notebook, and it is available for Chrome. After installing it, sign in from the extension icon and choose a default notebook.",
+      "verdict": {
+        "reasoning": "The answer is fully supported by the retrieved web-clipper context: it states the Lumen web clipper can save articles, screenshots, or whole pages into a notebook, is available for Chrome, and requires signing in and choosing a default notebook after installation. It directly answers the user\u2019s question about saving a news article from Chrome into notes and matches the reference answer.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q32",
+      "question": "Can I find words that are inside a scanned receipt photo?",
+      "relevant_ids": [
+        "tags-search"
+      ],
+      "reference_answer": "Yes, on Pro and Team search covers text inside images.",
+      "type": "paraphrase",
+      "retrieved": [
+        "tags-search",
+        "data-residency",
+        "device-limit"
+      ],
+      "retrieval_hit": true,
+      "answer": "Pro and Team plans also search text inside images and PDF attachments.",
+      "verdict": {
+        "reasoning": "The answer is directly supported by the retrieved context, which states that Pro and Team plans search text inside images and PDF attachments. This addresses the question about finding words inside a scanned receipt photo, though it is phrased as a plan limitation rather than a direct 'yes.' It matches the reference answer.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q33",
+      "question": "Is there a way to get a quick TL;DR of a really long meeting write-up?",
+      "relevant_ids": [
+        "ai-summary"
+      ],
+      "reference_answer": "Yes, use Summarize (AI summaries) on Pro and Team.",
+      "type": "paraphrase",
+      "retrieved": [
+        "templates",
+        "ai-summary",
+        "keyboard-shortcuts"
+      ],
+      "retrieval_hit": true,
+      "answer": "Pro and Team plans include AI summaries. Select **Summarize** in the toolbar to get a short summary of a long note.",
+      "verdict": {
+        "reasoning": "The answer is fully supported by the retrieved context: it states that Pro and Team plans include AI summaries and that selecting Summarize in the toolbar produces a short summary of a long note. It directly addresses the user's question about getting a quick TL;DR of a long meeting write-up and matches the reference answer.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q34",
+      "question": "I'm moving from Notion, can I bring my pages?",
+      "relevant_ids": [
+        "import-evernote"
+      ],
+      "reference_answer": "Yes, import Notion's Markdown export via Settings > Data > Import.",
+      "type": "paraphrase",
+      "retrieved": [
+        "web-clipper",
+        "import-evernote",
+        "data-residency"
+      ],
+      "retrieval_hit": true,
+      "answer": "Yes\u2014Lumen can import notes from Notion using Markdown export. Tags and creation dates are preserved where the source app provides them.",
+      "verdict": {
+        "reasoning": "The answer is fully supported by the retrieved context: it states that Lumen can import from Notion using Markdown export, and that tags and creation dates are preserved where available, both of which appear in the context. It directly answers the user's question about moving from Notion and bringing pages. Compared with the reference answer, it is correct, though it omits the Settings > Data > Import navigation detail.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q35",
+      "question": "I want all my data wiped from your servers",
+      "relevant_ids": [
+        "delete-account"
+      ],
+      "reference_answer": "Delete the account in Settings > Account > Delete account; it's processed within 30 days.",
+      "type": "paraphrase",
+      "retrieved": [
+        "delete-account",
+        "data-residency",
+        "keyboard-shortcuts"
+      ],
+      "retrieval_hit": true,
+      "answer": "To permanently delete your account and all notes, go to Settings > Account > Delete account and confirm with your password. Deletion is processed within 30 days, and deleted data cannot be restored.",
+      "verdict": {
+        "reasoning": "The answer accurately uses the retrieved delete-account context: it gives the correct Settings path, mentions password confirmation, says deletion is processed within 30 days, and notes deleted data cannot be restored. It addresses the user\u2019s request to wipe data by explaining how to delete the account and notes. Compared with the reference answer, it is correct and includes only supported extra detail.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q36",
+      "question": "Are my files kept in Europe?",
+      "relevant_ids": [
+        "data-residency"
+      ],
+      "reference_answer": "By default data is in the US; Team workspaces can choose EU residency at creation.",
+      "type": "paraphrase",
+      "retrieved": [
+        "import-evernote",
+        "export-pdf",
+        "device-limit"
+      ],
+      "retrieval_hit": false,
+      "answer": "I don't know based on the help center.",
+      "verdict": {
+        "reasoning": "The answer makes no substantive factual claim about data residency and simply says it does not know based on the provided help center context, which is faithful because the retrieved context contains no information about file storage location. It does address the user's question by indicating the answer cannot be determined from the context. However, compared with the reference answer, it fails to provide the correct information: data is in the US by default, while Team workspaces can choose EU residency at creation.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "incorrect"
+      }
+    },
+    {
+      "id": "q37",
+      "question": "Does Lumen Notes have a Linux desktop app?",
+      "relevant_ids": [],
+      "reference_answer": "Not covered by the knowledge base.",
+      "type": "unanswerable",
+      "retrieved": [
+        "offline-mode",
+        "import-evernote",
+        "device-limit"
+      ],
+      "retrieval_hit": false,
+      "answer": "I don't know based on the help center.",
+      "verdict": {
+        "reasoning": "The answer states that it doesn't know based on the help center. This is faithful because the retrieved context mentions desktop and mobile apps generally but does not specify whether there is a Linux desktop app. The answer directly addresses the user's question by indicating the information is not available. Compared with the reference answer, which says the topic is not covered by the knowledge base, the answer is correct.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q38",
+      "question": "Can I pay with PayPal?",
+      "relevant_ids": [],
+      "reference_answer": "Not covered by the knowledge base.",
+      "type": "unanswerable",
+      "retrieved": [
+        "data-residency",
+        "keyboard-shortcuts",
+        "export-markdown"
+      ],
+      "retrieval_hit": false,
+      "answer": "I don't know based on the help center.",
+      "verdict": {
+        "reasoning": "The retrieved context contains no information about payment methods or PayPal. The answer states that it does not know based on the help center, which is an appropriate response when the topic is not covered. It addresses the user's question by indicating the information is unavailable, and it matches the reference answer.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q39",
+      "question": "Is there an API for developers?",
+      "relevant_ids": [],
+      "reference_answer": "Not covered by the knowledge base.",
+      "type": "unanswerable",
+      "retrieved": [
+        "data-residency",
+        "keyboard-shortcuts",
+        "export-markdown"
+      ],
+      "retrieval_hit": false,
+      "answer": "I don't know based on the help center.",
+      "verdict": {
+        "reasoning": "The answer states that it does not know based on the help center. This is faithful because it does not assert unsupported product facts and appropriately reflects that the retrieved context contains no information about a developer API. It addresses the user's question by indicating the information is not available. Compared with the reference answer, which says the topic is not covered by the knowledge base, the answer is correct.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    },
+    {
+      "id": "q40",
+      "question": "Can I record audio notes?",
+      "relevant_ids": [],
+      "reference_answer": "Not covered by the knowledge base.",
+      "type": "unanswerable",
+      "retrieved": [
+        "encryption",
+        "trash-restore",
+        "delete-account"
+      ],
+      "retrieval_hit": false,
+      "answer": "I don't know based on the help center.",
+      "verdict": {
+        "reasoning": "The retrieved context contains information about encryption, trash recovery, and account deletion, but nothing about recording audio notes. The answer states that it does not know based on the help center, which is appropriate when the knowledge base does not cover the topic.",
+        "unsupported_claims": [],
+        "faithful": true,
+        "answers_question": true,
+        "correct": "correct"
+      }
+    }
+  ]
+}

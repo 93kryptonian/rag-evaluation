@@ -1,0 +1,2027 @@
+{
+  "BM25 (keyword)": {
+    "overall": {
+      "n": 36,
+      "mrr": 0.7105268959435626,
+      "hit@1": 0.6388888888888888,
+      "hit@3": 0.75,
+      "hit@5": 0.75
+    },
+    "by_type": {
+      "keyword": {
+        "n": 18,
+        "mrr": 1.0,
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "hit@5": 1.0
+      },
+      "paraphrase": {
+        "n": 18,
+        "mrr": 0.4210537918871252,
+        "hit@1": 0.2777777777777778,
+        "hit@3": 0.5,
+        "hit@5": 0.5
+      }
+    },
+    "rows": [
+      {
+        "id": "q01",
+        "type": "keyword",
+        "retrieved": [
+          "export-pdf",
+          "export-markdown",
+          "tags-search",
+          "delete-account",
+          "import-evernote"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q02",
+        "type": "keyword",
+        "retrieved": [
+          "export-markdown",
+          "import-evernote",
+          "export-pdf",
+          "delete-account",
+          "encryption"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q03",
+        "type": "keyword",
+        "retrieved": [
+          "sync-conflicts",
+          "data-residency",
+          "keyboard-shortcuts",
+          "export-markdown",
+          "offline-mode"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q04",
+        "type": "keyword",
+        "retrieved": [
+          "version-history",
+          "device-limit",
+          "cancel-subscription",
+          "export-pdf",
+          "ai-summary"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q05",
+        "type": "keyword",
+        "retrieved": [
+          "trash-restore",
+          "version-history",
+          "delete-account",
+          "cancel-subscription",
+          "templates"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q06",
+        "type": "keyword",
+        "retrieved": [
+          "plans-pricing",
+          "storage-limits",
+          "device-limit",
+          "cancel-subscription",
+          "ai-summary"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q07",
+        "type": "keyword",
+        "retrieved": [
+          "cancel-subscription",
+          "refund-policy",
+          "data-residency",
+          "keyboard-shortcuts",
+          "export-markdown"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q08",
+        "type": "keyword",
+        "retrieved": [
+          "refund-policy",
+          "plans-pricing",
+          "data-residency",
+          "keyboard-shortcuts",
+          "export-markdown"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q09",
+        "type": "keyword",
+        "retrieved": [
+          "student-discount",
+          "data-residency",
+          "keyboard-shortcuts",
+          "export-markdown",
+          "offline-mode"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q10",
+        "type": "keyword",
+        "retrieved": [
+          "two-factor",
+          "sync-conflicts",
+          "ai-summary",
+          "device-limit",
+          "export-markdown"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q11",
+        "type": "keyword",
+        "retrieved": [
+          "reset-password",
+          "ai-summary",
+          "encryption",
+          "shared-notebooks",
+          "delete-account"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q12",
+        "type": "keyword",
+        "retrieved": [
+          "web-clipper",
+          "two-factor",
+          "trash-restore",
+          "offline-mode",
+          "device-limit"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q13",
+        "type": "keyword",
+        "retrieved": [
+          "templates",
+          "export-pdf",
+          "version-history",
+          "encryption",
+          "export-markdown"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q14",
+        "type": "keyword",
+        "retrieved": [
+          "import-evernote",
+          "encryption",
+          "trash-restore",
+          "delete-account",
+          "templates"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q15",
+        "type": "keyword",
+        "retrieved": [
+          "storage-limits",
+          "student-discount",
+          "export-markdown",
+          "shared-notebooks",
+          "refund-policy"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q16",
+        "type": "keyword",
+        "retrieved": [
+          "data-residency",
+          "storage-limits",
+          "export-markdown",
+          "delete-account",
+          "import-evernote"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q17",
+        "type": "keyword",
+        "retrieved": [
+          "keyboard-shortcuts",
+          "data-residency",
+          "export-markdown",
+          "offline-mode",
+          "sync-conflicts"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q18",
+        "type": "keyword",
+        "retrieved": [
+          "ai-summary",
+          "encryption",
+          "trash-restore",
+          "delete-account",
+          "templates"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q19",
+        "type": "paraphrase",
+        "retrieved": [
+          "device-limit",
+          "plans-pricing",
+          "data-residency",
+          "keyboard-shortcuts",
+          "export-markdown"
+        ],
+        "rr": 0.16666666666666666,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 0.0,
+        "recall@3": 0.0,
+        "hit@5": 0.0,
+        "recall@5": 0.0
+      },
+      {
+        "id": "q20",
+        "type": "paraphrase",
+        "retrieved": [
+          "sync-conflicts",
+          "two-factor",
+          "import-evernote",
+          "encryption",
+          "device-limit"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q21",
+        "type": "paraphrase",
+        "retrieved": [
+          "two-factor",
+          "delete-account",
+          "trash-restore",
+          "sync-conflicts",
+          "device-limit"
+        ],
+        "rr": 0.1,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 0.0,
+        "recall@3": 0.0,
+        "hit@5": 0.0,
+        "recall@5": 0.0
+      },
+      {
+        "id": "q22",
+        "type": "paraphrase",
+        "retrieved": [
+          "data-residency",
+          "keyboard-shortcuts",
+          "export-markdown",
+          "offline-mode",
+          "sync-conflicts"
+        ],
+        "rr": 0.14285714285714285,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 0.0,
+        "recall@3": 0.0,
+        "hit@5": 0.0,
+        "recall@5": 0.0
+      },
+      {
+        "id": "q23",
+        "type": "paraphrase",
+        "retrieved": [
+          "cancel-subscription",
+          "version-history",
+          "data-residency",
+          "keyboard-shortcuts",
+          "export-markdown"
+        ],
+        "rr": 0.1111111111111111,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 0.0,
+        "recall@3": 0.0,
+        "hit@5": 0.0,
+        "recall@5": 0.0
+      },
+      {
+        "id": "q24",
+        "type": "paraphrase",
+        "retrieved": [
+          "two-factor",
+          "refund-policy",
+          "version-history",
+          "keyboard-shortcuts",
+          "export-markdown"
+        ],
+        "rr": 0.1,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 0.0,
+        "recall@3": 0.0,
+        "hit@5": 0.0,
+        "recall@5": 0.0
+      },
+      {
+        "id": "q25",
+        "type": "paraphrase",
+        "retrieved": [
+          "trash-restore",
+          "cancel-subscription",
+          "device-limit",
+          "tags-search",
+          "plans-pricing"
+        ],
+        "rr": 0.125,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 0.0,
+        "recall@3": 0.0,
+        "hit@5": 0.0,
+        "recall@5": 0.0
+      },
+      {
+        "id": "q26",
+        "type": "paraphrase",
+        "retrieved": [
+          "data-residency",
+          "keyboard-shortcuts",
+          "export-markdown",
+          "offline-mode",
+          "sync-conflicts"
+        ],
+        "rr": 0.0,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 0.0,
+        "recall@3": 0.0,
+        "hit@5": 0.0,
+        "recall@5": 0.0
+      },
+      {
+        "id": "q27",
+        "type": "paraphrase",
+        "retrieved": [
+          "reset-password",
+          "sync-conflicts",
+          "device-limit",
+          "templates",
+          "plans-pricing"
+        ],
+        "rr": 0.3333333333333333,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q28",
+        "type": "paraphrase",
+        "retrieved": [
+          "two-factor",
+          "import-evernote",
+          "offline-mode",
+          "device-limit",
+          "export-markdown"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q29",
+        "type": "paraphrase",
+        "retrieved": [
+          "shared-notebooks",
+          "encryption",
+          "data-residency",
+          "device-limit",
+          "export-markdown"
+        ],
+        "rr": 0.5,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q30",
+        "type": "paraphrase",
+        "retrieved": [
+          "encryption",
+          "trash-restore",
+          "delete-account",
+          "templates",
+          "offline-mode"
+        ],
+        "rr": 0.0,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 0.0,
+        "recall@3": 0.0,
+        "hit@5": 0.0,
+        "recall@5": 0.0
+      },
+      {
+        "id": "q31",
+        "type": "paraphrase",
+        "retrieved": [
+          "web-clipper",
+          "templates",
+          "two-factor",
+          "encryption",
+          "trash-restore"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q32",
+        "type": "paraphrase",
+        "retrieved": [
+          "tags-search",
+          "data-residency",
+          "device-limit",
+          "export-markdown",
+          "offline-mode"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q33",
+        "type": "paraphrase",
+        "retrieved": [
+          "templates",
+          "ai-summary",
+          "keyboard-shortcuts",
+          "device-limit",
+          "storage-limits"
+        ],
+        "rr": 0.5,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q34",
+        "type": "paraphrase",
+        "retrieved": [
+          "web-clipper",
+          "import-evernote",
+          "data-residency",
+          "device-limit",
+          "export-markdown"
+        ],
+        "rr": 0.5,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q35",
+        "type": "paraphrase",
+        "retrieved": [
+          "delete-account",
+          "data-residency",
+          "keyboard-shortcuts",
+          "export-pdf",
+          "import-evernote"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q36",
+        "type": "paraphrase",
+        "retrieved": [
+          "import-evernote",
+          "export-pdf",
+          "device-limit",
+          "export-markdown",
+          "offline-mode"
+        ],
+        "rr": 0.0,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 0.0,
+        "recall@3": 0.0,
+        "hit@5": 0.0,
+        "recall@5": 0.0
+      }
+    ]
+  },
+  "Embeddings (semantic)": {
+    "overall": {
+      "n": 36,
+      "mrr": 0.9212962962962963,
+      "hit@1": 0.8611111111111112,
+      "hit@3": 0.9722222222222222,
+      "hit@5": 0.9722222222222222
+    },
+    "by_type": {
+      "keyword": {
+        "n": 18,
+        "mrr": 1.0,
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "hit@5": 1.0
+      },
+      "paraphrase": {
+        "n": 18,
+        "mrr": 0.8425925925925926,
+        "hit@1": 0.7222222222222222,
+        "hit@3": 0.9444444444444444,
+        "hit@5": 0.9444444444444444
+      }
+    },
+    "rows": [
+      {
+        "id": "q01",
+        "type": "keyword",
+        "retrieved": [
+          "export-pdf",
+          "export-markdown",
+          "templates",
+          "import-evernote",
+          "trash-restore"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q02",
+        "type": "keyword",
+        "retrieved": [
+          "export-markdown",
+          "import-evernote",
+          "export-pdf",
+          "templates",
+          "delete-account"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q03",
+        "type": "keyword",
+        "retrieved": [
+          "sync-conflicts",
+          "reset-password",
+          "delete-account",
+          "offline-mode",
+          "two-factor"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q04",
+        "type": "keyword",
+        "retrieved": [
+          "version-history",
+          "device-limit",
+          "refund-policy",
+          "plans-pricing",
+          "cancel-subscription"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q05",
+        "type": "keyword",
+        "retrieved": [
+          "trash-restore",
+          "delete-account",
+          "import-evernote",
+          "export-markdown",
+          "templates"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q06",
+        "type": "keyword",
+        "retrieved": [
+          "plans-pricing",
+          "device-limit",
+          "shared-notebooks",
+          "storage-limits",
+          "ai-summary"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q07",
+        "type": "keyword",
+        "retrieved": [
+          "cancel-subscription",
+          "reset-password",
+          "refund-policy",
+          "student-discount",
+          "delete-account"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q08",
+        "type": "keyword",
+        "retrieved": [
+          "refund-policy",
+          "cancel-subscription",
+          "student-discount",
+          "plans-pricing",
+          "device-limit"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q09",
+        "type": "keyword",
+        "retrieved": [
+          "student-discount",
+          "plans-pricing",
+          "cancel-subscription",
+          "shared-notebooks",
+          "device-limit"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q10",
+        "type": "keyword",
+        "retrieved": [
+          "two-factor",
+          "reset-password",
+          "device-limit",
+          "student-discount",
+          "encryption"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q11",
+        "type": "keyword",
+        "retrieved": [
+          "reset-password",
+          "two-factor",
+          "delete-account",
+          "refund-policy",
+          "device-limit"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q12",
+        "type": "keyword",
+        "retrieved": [
+          "web-clipper",
+          "offline-mode",
+          "storage-limits",
+          "plans-pricing",
+          "keyboard-shortcuts"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q13",
+        "type": "keyword",
+        "retrieved": [
+          "templates",
+          "import-evernote",
+          "export-markdown",
+          "trash-restore",
+          "export-pdf"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q14",
+        "type": "keyword",
+        "retrieved": [
+          "import-evernote",
+          "export-pdf",
+          "templates",
+          "trash-restore",
+          "delete-account"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q15",
+        "type": "keyword",
+        "retrieved": [
+          "storage-limits",
+          "device-limit",
+          "plans-pricing",
+          "student-discount",
+          "web-clipper"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q16",
+        "type": "keyword",
+        "retrieved": [
+          "data-residency",
+          "shared-notebooks",
+          "storage-limits",
+          "device-limit",
+          "offline-mode"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q17",
+        "type": "keyword",
+        "retrieved": [
+          "keyboard-shortcuts",
+          "web-clipper",
+          "offline-mode",
+          "version-history",
+          "two-factor"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q18",
+        "type": "keyword",
+        "retrieved": [
+          "ai-summary",
+          "export-pdf",
+          "templates",
+          "export-markdown",
+          "import-evernote"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q19",
+        "type": "paraphrase",
+        "retrieved": [
+          "offline-mode",
+          "shared-notebooks",
+          "export-pdf",
+          "device-limit",
+          "two-factor"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q20",
+        "type": "paraphrase",
+        "retrieved": [
+          "sync-conflicts",
+          "offline-mode",
+          "web-clipper",
+          "version-history",
+          "reset-password"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q21",
+        "type": "paraphrase",
+        "retrieved": [
+          "reset-password",
+          "delete-account",
+          "trash-restore",
+          "cancel-subscription",
+          "sync-conflicts"
+        ],
+        "rr": 0.16666666666666666,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 0.0,
+        "recall@3": 0.0,
+        "hit@5": 0.0,
+        "recall@5": 0.0
+      },
+      {
+        "id": "q22",
+        "type": "paraphrase",
+        "retrieved": [
+          "trash-restore",
+          "reset-password",
+          "delete-account",
+          "version-history",
+          "refund-policy"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q23",
+        "type": "paraphrase",
+        "retrieved": [
+          "plans-pricing",
+          "refund-policy",
+          "student-discount",
+          "cancel-subscription",
+          "device-limit"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q24",
+        "type": "paraphrase",
+        "retrieved": [
+          "cancel-subscription",
+          "delete-account",
+          "refund-policy",
+          "version-history",
+          "trash-restore"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q25",
+        "type": "paraphrase",
+        "retrieved": [
+          "refund-policy",
+          "cancel-subscription",
+          "reset-password",
+          "trash-restore",
+          "delete-account"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q26",
+        "type": "paraphrase",
+        "retrieved": [
+          "student-discount",
+          "plans-pricing",
+          "offline-mode",
+          "refund-policy",
+          "storage-limits"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q27",
+        "type": "paraphrase",
+        "retrieved": [
+          "device-limit",
+          "reset-password",
+          "two-factor",
+          "delete-account",
+          "sync-conflicts"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q28",
+        "type": "paraphrase",
+        "retrieved": [
+          "reset-password",
+          "two-factor",
+          "delete-account",
+          "device-limit",
+          "encryption"
+        ],
+        "rr": 0.5,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q29",
+        "type": "paraphrase",
+        "retrieved": [
+          "shared-notebooks",
+          "encryption",
+          "offline-mode",
+          "version-history",
+          "data-residency"
+        ],
+        "rr": 0.5,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q30",
+        "type": "paraphrase",
+        "retrieved": [
+          "shared-notebooks",
+          "templates",
+          "export-markdown",
+          "encryption",
+          "import-evernote"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q31",
+        "type": "paraphrase",
+        "retrieved": [
+          "web-clipper",
+          "templates",
+          "export-pdf",
+          "export-markdown",
+          "offline-mode"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q32",
+        "type": "paraphrase",
+        "retrieved": [
+          "tags-search",
+          "export-pdf",
+          "import-evernote",
+          "version-history",
+          "encryption"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q33",
+        "type": "paraphrase",
+        "retrieved": [
+          "templates",
+          "ai-summary",
+          "version-history",
+          "export-markdown",
+          "keyboard-shortcuts"
+        ],
+        "rr": 0.5,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q34",
+        "type": "paraphrase",
+        "retrieved": [
+          "templates",
+          "import-evernote",
+          "shared-notebooks",
+          "export-pdf",
+          "web-clipper"
+        ],
+        "rr": 0.5,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q35",
+        "type": "paraphrase",
+        "retrieved": [
+          "delete-account",
+          "data-residency",
+          "cancel-subscription",
+          "reset-password",
+          "version-history"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q36",
+        "type": "paraphrase",
+        "retrieved": [
+          "data-residency",
+          "import-evernote",
+          "version-history",
+          "offline-mode",
+          "storage-limits"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      }
+    ]
+  },
+  "Hybrid (RRF)": {
+    "overall": {
+      "n": 36,
+      "mrr": 0.7970679012345678,
+      "hit@1": 0.6944444444444444,
+      "hit@3": 0.8888888888888888,
+      "hit@5": 0.9166666666666666
+    },
+    "by_type": {
+      "keyword": {
+        "n": 18,
+        "mrr": 1.0,
+        "hit@1": 1.0,
+        "hit@3": 1.0,
+        "hit@5": 1.0
+      },
+      "paraphrase": {
+        "n": 18,
+        "mrr": 0.5941358024691358,
+        "hit@1": 0.3888888888888889,
+        "hit@3": 0.7777777777777778,
+        "hit@5": 0.8333333333333334
+      }
+    },
+    "rows": [
+      {
+        "id": "q01",
+        "type": "keyword",
+        "retrieved": [
+          "export-pdf",
+          "export-markdown",
+          "templates",
+          "import-evernote",
+          "delete-account"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q02",
+        "type": "keyword",
+        "retrieved": [
+          "export-markdown",
+          "import-evernote",
+          "export-pdf",
+          "delete-account",
+          "templates"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q03",
+        "type": "keyword",
+        "retrieved": [
+          "sync-conflicts",
+          "data-residency",
+          "offline-mode",
+          "version-history",
+          "reset-password"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q04",
+        "type": "keyword",
+        "retrieved": [
+          "version-history",
+          "device-limit",
+          "cancel-subscription",
+          "plans-pricing",
+          "refund-policy"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q05",
+        "type": "keyword",
+        "retrieved": [
+          "trash-restore",
+          "delete-account",
+          "version-history",
+          "templates",
+          "export-markdown"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q06",
+        "type": "keyword",
+        "retrieved": [
+          "plans-pricing",
+          "device-limit",
+          "storage-limits",
+          "ai-summary",
+          "shared-notebooks"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q07",
+        "type": "keyword",
+        "retrieved": [
+          "cancel-subscription",
+          "refund-policy",
+          "data-residency",
+          "student-discount",
+          "reset-password"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q08",
+        "type": "keyword",
+        "retrieved": [
+          "refund-policy",
+          "plans-pricing",
+          "cancel-subscription",
+          "data-residency",
+          "student-discount"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q09",
+        "type": "keyword",
+        "retrieved": [
+          "student-discount",
+          "plans-pricing",
+          "offline-mode",
+          "cancel-subscription",
+          "version-history"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q10",
+        "type": "keyword",
+        "retrieved": [
+          "two-factor",
+          "device-limit",
+          "sync-conflicts",
+          "offline-mode",
+          "student-discount"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q11",
+        "type": "keyword",
+        "retrieved": [
+          "reset-password",
+          "delete-account",
+          "encryption",
+          "refund-policy",
+          "two-factor"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q12",
+        "type": "keyword",
+        "retrieved": [
+          "web-clipper",
+          "offline-mode",
+          "two-factor",
+          "plans-pricing",
+          "export-markdown"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q13",
+        "type": "keyword",
+        "retrieved": [
+          "templates",
+          "export-pdf",
+          "export-markdown",
+          "encryption",
+          "version-history"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q14",
+        "type": "keyword",
+        "retrieved": [
+          "import-evernote",
+          "trash-restore",
+          "templates",
+          "encryption",
+          "delete-account"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q15",
+        "type": "keyword",
+        "retrieved": [
+          "storage-limits",
+          "student-discount",
+          "device-limit",
+          "refund-policy",
+          "export-markdown"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q16",
+        "type": "keyword",
+        "retrieved": [
+          "data-residency",
+          "storage-limits",
+          "shared-notebooks",
+          "device-limit",
+          "ai-summary"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q17",
+        "type": "keyword",
+        "retrieved": [
+          "keyboard-shortcuts",
+          "offline-mode",
+          "version-history",
+          "export-markdown",
+          "data-residency"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q18",
+        "type": "keyword",
+        "retrieved": [
+          "ai-summary",
+          "templates",
+          "encryption",
+          "trash-restore",
+          "export-markdown"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q19",
+        "type": "paraphrase",
+        "retrieved": [
+          "device-limit",
+          "offline-mode",
+          "export-markdown",
+          "plans-pricing",
+          "shared-notebooks"
+        ],
+        "rr": 0.5,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q20",
+        "type": "paraphrase",
+        "retrieved": [
+          "sync-conflicts",
+          "two-factor",
+          "offline-mode",
+          "encryption",
+          "version-history"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q21",
+        "type": "paraphrase",
+        "retrieved": [
+          "delete-account",
+          "trash-restore",
+          "sync-conflicts",
+          "cancel-subscription",
+          "reset-password"
+        ],
+        "rr": 0.16666666666666666,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 0.0,
+        "recall@3": 0.0,
+        "hit@5": 0.0,
+        "recall@5": 0.0
+      },
+      {
+        "id": "q22",
+        "type": "paraphrase",
+        "retrieved": [
+          "trash-restore",
+          "data-residency",
+          "version-history",
+          "sync-conflicts",
+          "refund-policy"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q23",
+        "type": "paraphrase",
+        "retrieved": [
+          "cancel-subscription",
+          "version-history",
+          "plans-pricing",
+          "refund-policy",
+          "student-discount"
+        ],
+        "rr": 0.3333333333333333,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q24",
+        "type": "paraphrase",
+        "retrieved": [
+          "refund-policy",
+          "version-history",
+          "two-factor",
+          "cancel-subscription",
+          "trash-restore"
+        ],
+        "rr": 0.25,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 0.0,
+        "recall@3": 0.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q25",
+        "type": "paraphrase",
+        "retrieved": [
+          "cancel-subscription",
+          "trash-restore",
+          "refund-policy",
+          "device-limit",
+          "delete-account"
+        ],
+        "rr": 0.3333333333333333,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q26",
+        "type": "paraphrase",
+        "retrieved": [
+          "offline-mode",
+          "plans-pricing",
+          "student-discount",
+          "data-residency",
+          "refund-policy"
+        ],
+        "rr": 0.3333333333333333,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q27",
+        "type": "paraphrase",
+        "retrieved": [
+          "reset-password",
+          "device-limit",
+          "sync-conflicts",
+          "plans-pricing",
+          "student-discount"
+        ],
+        "rr": 0.5,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q28",
+        "type": "paraphrase",
+        "retrieved": [
+          "two-factor",
+          "device-limit",
+          "offline-mode",
+          "trash-restore",
+          "reset-password"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q29",
+        "type": "paraphrase",
+        "retrieved": [
+          "shared-notebooks",
+          "encryption",
+          "data-residency",
+          "offline-mode",
+          "version-history"
+        ],
+        "rr": 0.5,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q30",
+        "type": "paraphrase",
+        "retrieved": [
+          "encryption",
+          "templates",
+          "export-markdown",
+          "trash-restore",
+          "offline-mode"
+        ],
+        "rr": 0.1111111111111111,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 0.0,
+        "recall@3": 0.0,
+        "hit@5": 0.0,
+        "recall@5": 0.0
+      },
+      {
+        "id": "q31",
+        "type": "paraphrase",
+        "retrieved": [
+          "web-clipper",
+          "templates",
+          "offline-mode",
+          "encryption",
+          "export-markdown"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q32",
+        "type": "paraphrase",
+        "retrieved": [
+          "tags-search",
+          "export-markdown",
+          "version-history",
+          "trash-restore",
+          "offline-mode"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q33",
+        "type": "paraphrase",
+        "retrieved": [
+          "templates",
+          "ai-summary",
+          "keyboard-shortcuts",
+          "export-markdown",
+          "version-history"
+        ],
+        "rr": 0.5,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q34",
+        "type": "paraphrase",
+        "retrieved": [
+          "import-evernote",
+          "web-clipper",
+          "export-markdown",
+          "offline-mode",
+          "data-residency"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q35",
+        "type": "paraphrase",
+        "retrieved": [
+          "delete-account",
+          "data-residency",
+          "import-evernote",
+          "version-history",
+          "export-markdown"
+        ],
+        "rr": 1.0,
+        "hit@1": 1.0,
+        "recall@1": 1.0,
+        "hit@3": 1.0,
+        "recall@3": 1.0,
+        "hit@5": 1.0,
+        "recall@5": 1.0
+      },
+      {
+        "id": "q36",
+        "type": "paraphrase",
+        "retrieved": [
+          "import-evernote",
+          "offline-mode",
+          "version-history",
+          "export-markdown",
+          "export-pdf"
+        ],
+        "rr": 0.16666666666666666,
+        "hit@1": 0.0,
+        "recall@1": 0.0,
+        "hit@3": 0.0,
+        "recall@3": 0.0,
+        "hit@5": 0.0,
+        "recall@5": 0.0
+      }
+    ]
+  }
+}
